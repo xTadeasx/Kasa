@@ -1,0 +1,131 @@
+#test{
+    border: black 1px solid;
+    background-color: aqua;
+}
+
+/* Menu_start */
+.href{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+.text {
+    color: black;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1000px) {
+    #zmiz {
+      display: none;
+    }
+
+  }
+/* Menu_stop */
+/* Hlavní_start */
+#main {
+    height: 1000px;
+}
+#top {
+    width: 100%;
+    height: 50%;
+    background-color: #44444C;
+    float: left;
+}
+#middle {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    margin-top: -12.5%;
+
+}
+#bottom {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    float: left;
+}
+#text {
+    margin-top: 4%;
+}
+/* Hlavní_stop */
+#jmeno {
+    font-size: 500%;
+    font-weight: bold;
+    text-shadow: 0px 0px 19px rgba(0,0,0,1);
+}
+.border_left{
+    height: 100%;
+    -webkit-box-shadow: -15px 0px 19px 7px rgba(0,0,0,1);
+    -moz-box-shadow: -15px 0px 19px 7px rgba(0,0,0,1);
+    box-shadow: -15px 0px 19px 7px rgba(0,0,0,1);
+}
+.border_right {
+    height: 100%;
+    -webkit-box-shadow: 15px 0px 19px 7px rgba(0,0,0,1);
+    -moz-box-shadow: 15px 0px 19px 7px rgba(0,0,0,1);
+    box-shadow: 15px 0px 19px 7px rgba(0,0,0,1);
+}
+
+@media only screen and (max-height: 750px){
+    #main {
+        height: 750px;
+    }
+    #jmeno {
+        font-size: 300%;
+    }
+    #middle {
+        margin-top: -180px;
+    }
+}
+@media only screen and (max-height: 500px){
+    #main {
+        height: 500px;
+    }
+    #jmeno {
+        font-size: 200%;
+    }
+    #middle {
+        margin-top: -125px;
+    }
+}
+@media only screen and (max-height: 250px){
+    #main {
+        height: 250px;
+    }
+    #middle {
+        margin-top: -180px;
+    }
+}
+input[type=text] {
+    width: 95%;
+    padding: 12px;
+    margin: auto;
+    border: 5px solid #44444C;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 95%;
+    padding: 12px;
+    margin: auto;
+    border: 5px solid #44444C;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #44444C;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    margin-top: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.label {
+    font-size: 150%;
+    color: #44444C;
+    font-weight: bold;
+}
